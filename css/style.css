@@ -12,6 +12,9 @@ body {
    height: 100vh;
    background-color: rgb(255, 255, 255);
    overflow-x: hidden; /* Hide horizontal scrollbar */
+   flex-direction: column;
+   min-height: 100vh;
+   animation: transitionIn 2s;
 }
 
 
@@ -35,7 +38,8 @@ nav{
 .center > div {
    margin-left: 605px;
    font-family: 'Ubuntu', sans-serif;
-   color: #fff;
+   color: #fff;  
+
 }
 
 .navbar-bottom{
@@ -46,7 +50,7 @@ nav{
 .logo {
    height: 125px;
    width: 260px;
-   margin-left: -30px;
+   margin-left: -40px;
 }
 
 li {
@@ -85,15 +89,71 @@ a:active{
    width: 40px;
    position: absolute;  
    top: 0.75px;
-   left: 715px;
+   left: 765px;
 }
 
+
+.footer-container {
+background-color: hsl(28, 22%, 47%);
+padding-bottom: 4em;
+box-sizing: border-box;
+position: sticky;
+top: 100%;
+}
+
+.footer {
+   width: 100%;
+   height: 150px;
+   background-color: hsl(28, 22%, 47%);
+   color: #4b2506;
+   display: flex; 
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   }
+
+   .footer-heading {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+   }
+
+   .footer-heading h2 {
+      margin-bottom: 2rem;
+      font-size: 25px;
+      font-family: 'Ubuntu', sans-serif;
+      color: #000000;
+      position: relative;
+      top: 10px;
+      left: 30px;
+   }
+
+   .footer-heading a {
+      color: #4b2506;  
+      text-decoration: none;
+      font-size: 20px;
+      left: 50px;
+   }
+
+/* website animation */
+@keyframes transitionIn {
+   from {
+   opacity: 0;
+   transform: rotateX(0);
+   }
+   to {
+      opacity: 1;
+      transform: rotateX(0);
+   }
+
+}
+/* website animation */
 
 /* website building blocks */
 /* home */
 .slide1 {
-position: absolute;
-top: 166px;
+position: relative;
+top: 32.5px;
 left: 0px;
 height: 675px;
 width: 100%;
@@ -149,14 +209,6 @@ max-height: 630px;
    padding: 0 24px;
    height: 100%;
    overflow: hidden;
-}
-
-
-.footer {
-   background-color: #92765e;
-   position: relative;
-   height: 100px;
-   margin-top: -100px;
 }
 
 .popup {
@@ -285,11 +337,20 @@ gap: 1rem;
    color: #4b2506;
 }
 
+.contactlogo {
+  position: absolute;
+  top: 400px;
+  height: 125px;
+ width: 260px;
+ left: 890px;
+
+}
+
 /* products */
 
 .productimg1 {
    position: relative;
-   top: 20px;
+   top: 32.5px;
    left: 30px;
    height: 453px;
    width: 457px;
@@ -298,9 +359,9 @@ gap: 1rem;
 
 .container6 p {
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 22.5px;
   position: relative;
-  top: 11px;
+  top: 23px;
   left: 60px;
 }
 
@@ -310,10 +371,130 @@ gap: 1rem;
    color: red;
    font-weight: 600;
    position: relative;
-   top: 10px;
+   top: 20px;
    left: 60px;
 }
 
+.slidershow {
+   width: 604px;
+   height: 610px;
+   overflow: hidden;
+   border-radius: 20px;
+}
+
+.middle {
+   position: relative;
+   top: 32.5px;
+   left: 62.5px;
+}
+
+.navigation {
+position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+}
+
+.bar {
+   width: 50px;
+   height: 10px;
+   border: 2px solid #fff;
+   margin: 6px;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+.bar:hover{
+   background: #715c4a;
+}
+
+input[name="r"]{
+position: absolute;
+visibility: hidden;
+}
+
+.slides{
+width: 500%;
+height: 100%;
+display: flex;
+}
+
+.slide{
+   width: 20%;
+   transition: 0.6s;
+}
+
+.slide img {
+width: 100%;
+height: 100%;
+}
+
+#r1:checked ~ .s1 {
+margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+margin-left: -20%;
+}
+#r3:checked ~ .s1 {
+margin-left: -40%;
+}
+#r4:checked ~ .s1 {
+margin-left: -60%;
+ }
+
+ .container8{
+   visibility: hidden;
+ }
+
+ .container9{
+   font-family: 'Oswald', sans-serif;
+   font-size: 35px;
+   position: relative;
+   left: 750px;
+   top: -500px;
+ }
+
+ .container9 p{
+   font-family: 'Oswald', sans-serif;
+   font-size: 25px;
+ }
+
+ .container9 h3{
+   visibility: hidden;
+   font-size: 5px;
+ }
+
+ .payhip-add-to-cart-button {
+   padding: 0;
+   background: #92765e;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   font-family: 'Oswald', sans-serif;
+   font-size: 22.5px;
+   cursor: pointer;
+   position: relative;
+   left: 720px;
+   top: -490px;
+ }
+
+.container10 p{
+   font-family: 'Ubuntu', sans-serif;
+   max-width: 600px; 
+   position: relative;
+   left: 750px;
+   top: -480px;
+}
+
+.container10 h2{
+   font-family: 'Oswald', sans-serif;
+   max-width: 600px; 
+   position: relative;
+   left: 750px;
+   top: -480px;
+}
 /* products */
 
 /* about us*/
@@ -322,10 +503,92 @@ gap: 1rem;
    font-family: 'Oswald', sans-serif;
    font-size: 30px;
    font-weight: 200;
+   position: relative;
+   top: 85px;
+   left: 67.5px;
 }
 
-.container5 h3 {
-   font-family: 'Oswald', sans-serif;
+.container5 p {
+   font-family: 'Ubuntu', sans-serif;
    font-size: 20px;
    font-weight: 200;
+   max-width: 600px;
+   position: relative;
+   top: 85px;
+   left: 67.5px;
+   color: #000000;
 }
+
+.abtus {
+   position: relative;
+   top: -125px;
+   left: 770px;
+   height: 300px;
+   widows: 360px;
+}
+
+/* about us*/ 
+
+ /* f&q */
+
+ .productfq1 {
+   position: relative;
+   top: 32.5px;
+   left: 989.5px;
+   height: 482.5px;
+   width: 482.5px;
+   border-radius: 10px;
+ }
+ 
+ #accordion {
+   width: 600px;
+   position: relative;
+   top: -455px;
+   left: 60px;
+ }
+
+ #accordion li{
+  list-style: none;
+  width: 800px;
+  margin-bottom: 10px;
+  background: rgb(240, 238, 238);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+ #accordion li label{
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+   color:#4b2506;
+   font-size: 22px;
+   font-family:'Oswald', sans-serif;
+ }
+
+ #accordion li label span{
+transform: rotate(90deg);
+font-size: 22px;
+color: #4b2506;
+ }
+
+ #accordion label + input[type="radio"]{
+display: none;
+ }
+
+ #accordion .container7{
+   padding: 0 10px;
+   line-height: 26px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s;
+ }
+
+ #accordion label + input[type="radio"]:checked + .container7{
+  max-height: 400px;
+ }
+
