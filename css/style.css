@@ -787,10 +787,12 @@ display: none;
    
    .button:hover {
       background: #8a6f58;
+      text-decoration: none;
    }
    
    .button:active {
       background: #715c4a;
+      text-decoration: none;
    }
    
    .button__text,
