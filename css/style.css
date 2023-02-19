@@ -1033,6 +1033,42 @@ margin-left: -60%;
    max-width: 350px;
  
 }
+     /* about us*/
+
+.container5 {
+   overflow: hidden;
+   height: 400px;
+}
+
+.container5 h2 {
+   font-family: 'Oswald', sans-serif;
+   font-size: 25px;
+   font-weight: 200;
+   position: relative;
+   top: 32.5px;
+   left: 22.5px;
+}
+
+.container5 p {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 15px;
+   font-weight: 200;
+   max-width: 335px;
+   position: relative;
+   top: 30px;
+   left: 22.5px;
+   color: #000000;
+}
+
+.abtus {
+   position: relative;
+   top: -200px;
+   left: 35px;
+   height: 150px;
+   widows: 180px;
+}
+
+/* about us*/ 
   /* contact us */
 
 .container4 h2 {
@@ -1083,7 +1119,7 @@ margin-left: -60%;
  }
  
  .container4 h3 {
-    position: relative;
+ position: relative;
     top: 10px;
     width: 335px;
     left: 27.5px;
