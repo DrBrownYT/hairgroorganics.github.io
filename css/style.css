@@ -1033,6 +1033,193 @@ margin-left: -60%;
    max-width: 350px;
  
 }
+     /* contact us */
+
+.container4 h2 {
+   font-family: 'Oswald', sans-serif;
+  position: relative;
+   top: 10px;
+   left: 300px;
+   font-weight: 400;
+   font-size: 32px;
+ }
+ 
+ .container4 form {
+ display: flex;
+ flex-direction: column;
+ width: 24rem;
+ gap: 1rem;
+ 
+ }
+ 
+ .container4 input, select, textarea {
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid #4b2506;
+    position: relative;
+    top: 10px;
+    left: 300px;
+ }
+ 
+ .container4 button {
+    height: 50px;
+    padding: 0;
+    background: #92765e;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22.5px;
+    cursor: pointer;
+    position: relative;
+    left: 300px;
+ }
+ 
+ .container4 h3 {
+    position: relative;
+    top: -392px;
+    left: 850px;
+    font-family: 'Oswald', sans-serif;
+    color: #4b2506;
+ }
+ 
+ .contactlogo {
+   position: absolute;
+   top: 400px;
+   height: 125px;
+  width: 260px;
+  left: 890px;
+ 
+ }
+
+ /* contact us */
+
+.container4 h2 {
+   font-family: 'Oswald', sans-serif;
+  position: relative;
+   top: 20px;
+   left: 27.5px;
+   font-weight: 400;
+   font-size: 32px;
+   color: #4b2506;  
+ }
+ 
+ .container4 form {
+ display: flex;
+ flex-direction: column;
+ width: 24rem;
+ gap: 1rem;
+ height: 415px;
+ }
+ 
+ .container4 input, select, textarea {
+    padding: 1.4rem;
+    background: transparent;
+    border: 1px solid #4b2506;
+    position: relative;
+    top: 25px;
+    left: 27.5px;
+    width: 335px;
+    
+ }
+ 
+ .container4 button {
+    height: 200px;
+    padding: 0;
+    background: #92765e;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22.5px;
+    cursor: pointer;
+    position: relative;
+    left: 27.5px;
+    width: 335px;
+    top: 20px;
+ }
+ 
+ .container4 h3 {
+    position: relative;
+    top: -392px;
+    left: 850px;
+    font-family: 'Oswald', sans-serif;
+    color: #4b2506;
+ }
+ 
+ .contactlogo {
+  display: none;
+ 
+ }
+
+ /* contact us */
+ /* f&q */
+
+ .productfq1 {
+   position: relative;
+   top: 32.5px;
+   left: 989.5px;
+   height: 482.5px;
+   width: 482.5px;
+   border-radius: 10px;
+ }
+ 
+ #accordion {
+   width: 600px;
+   position: relative;
+   top: -455px;
+   left: 27.5px;
+ }
+
+ #accordion li{
+  list-style: none;
+  width: 335px;
+  margin-bottom: 10px;
+  background: rgb(240, 238, 238);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Ubuntu', sans-serif;
+ 
+ }
+
+ #accordion li label{
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+   color:#4b2506;
+   font-size: 22px;
+   font-family:'Oswald', sans-serif;
+ }
+
+ #accordion li label span{
+transform: rotate(90deg);
+font-size: 22px;
+color: #4b2506;
+ }
+
+ #accordion label + input[type="radio"]{
+display: none;
+ }
+
+ #accordion .container7{
+   padding: 0 10px;
+   line-height: 26px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.5s;
+ }
+
+ #accordion label + input[type="radio"]:checked + .container7{
+  max-height: 400px;
+ }
+
+ /* f&q */
 
   }
 
