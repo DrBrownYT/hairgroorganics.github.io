@@ -1033,67 +1033,7 @@ margin-left: -60%;
    max-width: 350px;
  
 }
-     /* contact us */
-
-.container4 h2 {
-   font-family: 'Oswald', sans-serif;
-  position: relative;
-   top: 10px;
-   left: 300px;
-   font-weight: 400;
-   font-size: 32px;
- }
- 
- .container4 form {
- display: flex;
- flex-direction: column;
- width: 24rem;
- gap: 1rem;
- 
- }
- 
- .container4 input, select, textarea {
-    padding: 1.4rem;
-    background: transparent;
-    border: 1px solid #4b2506;
-    position: relative;
-    top: 10px;
-    left: 300px;
- }
- 
- .container4 button {
-    height: 50px;
-    padding: 0;
-    background: #92765e;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: 'Oswald', sans-serif;
-    font-size: 22.5px;
-    cursor: pointer;
-    position: relative;
-    left: 300px;
- }
- 
- .container4 h3 {
-    position: relative;
-    top: -392px;
-    left: 850px;
-    font-family: 'Oswald', sans-serif;
-    color: #4b2506;
- }
- 
- .contactlogo {
-   position: absolute;
-   top: 400px;
-   height: 125px;
-  width: 260px;
-  left: 890px;
- 
- }
-
- /* contact us */
+  /* contact us */
 
 .container4 h2 {
    font-family: 'Oswald', sans-serif;
@@ -1110,7 +1050,7 @@ margin-left: -60%;
  flex-direction: column;
  width: 24rem;
  gap: 1rem;
- height: 415px;
+ height: 635px;
  }
  
  .container4 input, select, textarea {
@@ -1125,7 +1065,7 @@ margin-left: -60%;
  }
  
  .container4 button {
-    height: 200px;
+    height: 50px;
     padding: 0;
     background: #92765e;
     border: none;
@@ -1136,6 +1076,7 @@ margin-left: -60%;
     font-size: 22.5px;
     cursor: pointer;
     position: relative;
+    text-decoration: none;
     left: 27.5px;
     width: 335px;
     top: 20px;
@@ -1143,8 +1084,9 @@ margin-left: -60%;
  
  .container4 h3 {
     position: relative;
-    top: -392px;
-    left: 850px;
+    top: 10px;
+    width: 335px;
+    left: 27.5px;
     font-family: 'Oswald', sans-serif;
     color: #4b2506;
  }
@@ -1158,19 +1100,15 @@ margin-left: -60%;
  /* f&q */
 
  .productfq1 {
-   position: relative;
-   top: 32.5px;
-   left: 989.5px;
-   height: 482.5px;
-   width: 482.5px;
-   border-radius: 10px;
+display: none;
  }
  
  #accordion {
    width: 600px;
    position: relative;
-   top: -455px;
+   top: 30px;
    left: 27.5px;
+   height: 650px;
  }
 
  #accordion li{
@@ -1220,6 +1158,7 @@ display: none;
  }
 
  /* f&q */
+ 
 
   }
 
