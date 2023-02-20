@@ -1087,7 +1087,7 @@ margin-left: -60%;
  width: 24rem;
  gap: 1rem;
  height: 635px;
-overflow: hidden;
+overflow-y: hidden;
  }
  
  .container4 input, select, textarea {
@@ -1098,7 +1098,7 @@ overflow: hidden;
     top: 25px;
     left: 27.5px;
     width: 335px;
-    
+    overflow-y: hidden;
  }
  
  .container4 button {
