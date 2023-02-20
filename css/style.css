@@ -1119,15 +1119,16 @@ overflow-y: hidden;
     top: 20px;
  }
  
- .container4 h3 {
- position: relative;
-    top: 10px;
+.container4 h3 {
+    position: relative;
+    top: 20px;
+    height: 115px;
     width: 335px;
     left: 27.5px;
     font-family: 'Oswald', sans-serif;
     color: #4b2506;
  }
- 
+     
  .contactlogo {
   display: none;
  
