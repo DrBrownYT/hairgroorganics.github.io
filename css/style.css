@@ -660,14 +660,19 @@ display: none;
    
    /* hamburger menu */
    
-   .hamburger{
+.hamburger{
       display: block;
       cursor: pointer;
-      position: absolute;
-      top: 82.5px;
-      left: 320px;
+      position: relative;
+      top: -52.5px;
+      left: 0px;
+      width: 35px;
+      height: 40px;
       overflow: hidden;
+      transform: translateY(100px); 
+      transform: translateX(325px); 
    }
+
 
    .bar {
       display: block;
@@ -739,9 +744,9 @@ display: none;
    /* hamburger menu */
 
    /* home */
-   .slide1{
+  .slide1{
    position: relative;
-   top: 32.5px;
+   top: -10px;
    height: 250px;
    margin-left: -60px;
    width: 600px;
@@ -750,7 +755,7 @@ display: none;
 
    .newway {
       position: relative;
-      top: -160px;
+      top: -195px;
       left: 195px;
       font-family: 'Oswald', sans-serif;
       font-size: 19px;
@@ -761,7 +766,7 @@ display: none;
    
    .form {
       position: relative;
-      top: -160px;
+      top: -195px;
       left: 195px;
       font-family: 'Oswald', sans-serif;
       font-size: 13px;
@@ -781,12 +786,12 @@ display: none;
       font-family: 'Oswald', sans-serif;
       font-size: 13px;
       font-weight: 500;
-      text-decoration: none;
       cursor: pointer;
       position: relative;
-      top: -165px;
+      top: -195px;
       left: 165px;
    }
+   
    
    .button:hover {
       background: #8a6f58;
@@ -877,7 +882,7 @@ margin: 30px 0px 0px 30px;
 
 .productimg1 {
    position: relative;
-   top: 31px;
+   top: 0px;
    left: 15px;
    height: 300px;
    width: 300px;
@@ -888,10 +893,9 @@ margin: 30px 0px 0px 30px;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
   position: relative;
-  top: 24px;
+  top: 0px;
   left: 45px;
 }
-
 
 .container6 p1{
    font-family: 'Oswald', sans-serif;
@@ -899,7 +903,7 @@ margin: 30px 0px 0px 30px;
    font-weight: 600;
    position: relative;   top: 20px;
    left: 45px;
-   top: 22px;
+   top: 0px;
 }
      
      .slidershow {
@@ -1074,7 +1078,7 @@ margin-left: -60%;
 .container4 h2 {
    font-family: 'Oswald', sans-serif;
   position: relative;
-   top: 20px;
+   top: -5px;
    left: 27.5px;
    font-weight: 400;
    font-size: 32px;
@@ -1087,7 +1091,7 @@ margin-left: -60%;
  width: 24rem;
  gap: 1rem;
  height: 635px;
-overflow-y: hidden;
+ overflow: hidden;
  }
  
  .container4 input, select, textarea {
@@ -1095,17 +1099,16 @@ overflow-y: hidden;
     background: transparent;
     border: 1px solid #4b2506;
     position: relative;
-    top: 25px;
+    top: 0px;
     left: 27.5px;
     width: 335px;
-    overflow-y: hidden;
+    overflow: hidden;
  }
  
  .container4 button {
     height: 50px;
     padding: 0;
     background: #92765e;
-    color: #92765e;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -1117,19 +1120,19 @@ overflow-y: hidden;
     text-decoration: none;
     left: 27.5px;
     width: 335px;
-    color: #4b2506;  
-    top: 20px;
+    top: 0px;
  }
  
-.container4 h3 {
+ .container4 h3 {
     position: relative;
-    top: 20px;
+    top: 0px;
     height: 115px;
     width: 335px;
     left: 27.5px;
     font-family: 'Oswald', sans-serif;
     color: #4b2506;
- }
+    {
+
      
  .contactlogo {
   display: none;
@@ -1146,7 +1149,7 @@ display: none;
  #accordion {
    width: 600px;
    position: relative;
-   top: 30px;
+   top: 0px;
    left: 27.5px;
    height: 650px;
  }
